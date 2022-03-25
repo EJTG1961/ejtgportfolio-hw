@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 body {
@@ -13,50 +13,60 @@ li {
   display: inline;
   padding: 0px 20px;
   text-decoration: none;
-}
-.container {
-  max-width: 960px;
-  margin: 30px auto;
-}
-
-.clr {
-  clear: both;
-}
-
-.box {
-  background: #f4f4f4;
-  border: 1px solid #333;
-  padding: 20px;
-  margin-bottom: 15px;
-}
-
-.box p {
-  /* Text Align Property */
-  text-align: left;
-  text-align: right;
-  text-align: center;
   text-align: justify; 
 }
+ 
 
 #box-1 {
   height: 400px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: aqua;
 }
 
-#box-2 {
-  float: left;
-  width: 49%;
+#box-2, #box-3, #box-4, #box-5 {
+  width: 50%;
+  height: 100px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: aqua;
 }
 
-#box-3 {
-  float: right;
-  width: 49%;
+  .flexbox-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px; 
+  }
+
+  .flexbox-1 {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+  }
+  
+
+nav {
+  display: flex;
 }
-#box-4 {
-  float: left;
-  width: 49%;
+nav .contact li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: underline;
+  text-align: justify; 
 }
 
-#box-5 {
-  float: right;
-  width: 49%;
+.text-decor {
+  text-align: center;
+  background-color: aqua;
+  display: block;
+}
+
+.h-container {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #333;
 }
