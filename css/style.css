@@ -16,24 +16,31 @@ header {
   background-repeat: no-repeat;
 }
 
-nav .showcase {
+.showcase {
 
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  gap: 100px 50px;
   flex-wrap: wrap; 
   text-align: center;
   padding: 3%;
-  /* margin: auto; */
+  margin: auto; 
 }
 
 .showcase-1 {
  color: #333;
 }
 
+.showcase-1 .h-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 .showcase-2 {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 10px;
+  display: inline-block;
+  /* justify-content: flex-end;
+  margin-right: 10px; */
 } 
 
 .showcase-3 {
@@ -43,6 +50,13 @@ nav .showcase {
   border-width: 2px;
   border-color: aqua;  */
 }
+
+.showcase-3 .h-container {
+  position: relative;
+  bottom: 150px;
+  left: 960px;
+}
+
 li {
   display: inline;
   padding: 0px 20px;
