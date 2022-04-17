@@ -147,7 +147,9 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  flex-basis: 80%;
+  padding-left: 0.5rem;
 } 
 
  .flexbox-3a {
@@ -156,7 +158,9 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-} 
+  flex-basis: 80%;
+  padding-left: 0.5rem;
+}  
 
 .card-1 {
   display: flex;
