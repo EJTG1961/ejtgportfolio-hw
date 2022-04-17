@@ -29,23 +29,6 @@ body {
   margin: 0;
 }
 
-/* header {
-  background-image: url(/images/showcase-1.jpg);
-  background-repeat: no-repeat;  
-} */
-
-/* .flexbox-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0.5rem;
-  gap: 100px 50px;
-  flex-wrap: wrap; 
-  display: inline;
-  height: 60px;
-  padding: 3%; 
-}  */
-
 a:hover {
   color: var(--yellow);
   cursor: pointer;
@@ -64,15 +47,6 @@ a {
  height: 60px;
  width: 100%;
 }
-/* .flexbox-header1 {
-
-}
-
-/*.flexbox-header2 {
-  display: inline-block;
-  justify-content: flex-end;
-  margin-right: 10px; 
-} */
 
 .flexbox-header1 .flexbox-header2 .h-container {
   position: relative;
@@ -106,10 +80,6 @@ a {
   left: 960px; */
 }
 
-/* #about {
-  display: flex;
-  position: relative;
-} */
 
 li {
   display: inline;
@@ -118,21 +88,6 @@ li {
   text-align: justify;
   color: var(--bgaqua);
 }
-
-/* .flexbox-container {
-  display: flex;
-  flex-direction: row;
-}  */
-
-  /* .flexbox-container {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: space-between;
-    text-align: center;
-    height: 100px;
-    padding-bottom: 10px;
-  } */
 
   .flexbox-2 .flexbox-2b .h-container {
     position: absolute;
@@ -160,14 +115,6 @@ li {
   justify-self: flex-start; */
 }
 
- /* .flexbox-3a {
-  display: flex ;
-  flex-direction: row;
-  flex: 1 0 80%;
-  align-content: flex-start; 
-  height: 800px;
-  width: 20%; 
-}  */
 
 .flexbox-2a,
 .flexbox-4a {
@@ -190,6 +137,27 @@ li {
   padding-left: 0.5rem;
 }
 
+main {
+  display: flex;
+  flex-direction: row;
+} 
+
+ .flexbox-3 {
+  display: flex ;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+} 
+
+ .flexbox-3a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+} 
+
 .card-1 {
   display: flex;
   position: relative;
@@ -198,7 +166,6 @@ li {
   border-style: solid;
   border-width: 2px;
   border-color: var(--bgaqua);
-  /* background-image: url(/images/showcase-2.jpg); */
 }
 
 .card-1 img {
@@ -292,23 +259,4 @@ nav .contact li {
   justify-content: space-between;
   background-color: var(--bgdark);
   color: var(--white);
-  /* display: inline-block;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  height: 3rem; */
 }
-/* .showcase-footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  height: 3rem; */
-  /* display: flex;
-  position: relative;
-  justify-content: space-between;
-  text-align: center;
-  padding: 3%;
-  margin: auto;
-  padding-bottom: 0;
-  border: solid 2px; 
-} */
